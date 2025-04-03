@@ -29,19 +29,18 @@
 
 <!--  Create some shape using canvas tag in html  -->
 
-<h1>Canvas Tag :- Drawing a Rectangle & Circle</h1> 
+<h1>Canvas Tag :- </h1> 
   
   <canvas id="myCanvas" width="400" height="200"></canvas>
   
   <script>
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
-  
-    //Rectangle
+      //Rectangle
     ctx.fillStyle = "yellow";
     ctx.fillRect(50, 50, 100, 100);
-  
-    // Circle
+
+      //Circle
     ctx.beginPath();
     ctx.arc(200, 100, 50, 0, 2 * Math.PI);
     ctx.fillStyle = "red";
